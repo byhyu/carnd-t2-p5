@@ -94,8 +94,7 @@ The number N and dt define the prediction horizon. Choosing a long prediction ho
 4. Run it: `./mpc`.
 
 ## Dependencies
-
-The project was build under environment provided by the Udacity [Docker container](https://hub.docker.com/r/udacity/carnd_mpc/). 
+The project was firste intended to build under macOS. However, installation of `Ipopt` kept failing; so eventually I turned to Docker environment provided by the Udacity [Docker container](https://hub.docker.com/r/udacity/carnd_mpc/). 
 
 * cmake >= 3.5
  * All OSes: [click here for installation instructions](https://cmake.org/install/)
