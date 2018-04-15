@@ -71,6 +71,7 @@ The objective of the controller is to minimize a cost function that depends on d
 
 I used the weight parameters to prioritize the importance of each factor in the cost function. The best weight values were obtained through trial and error. I noticed that the weights corresponding to the steering angle input and its rate have the most significant impact on the performance of the system. Large values for these two weights (W_DELTA and W_DDELTA) help improving the stability of the car and avoiding the erratic and sudden steering behavior. I settled with the following values:
 
+```
 #define W_CTE 2
 #define W_EPSI 1
 #define W_V 1
@@ -78,6 +79,7 @@ I used the weight parameters to prioritize the importance of each factor in the 
 #define W_A 1
 #define W_DDELTA 2000
 #define W_DA 1
+```
 
 #### Timestep Length and Elapsed Duration (N & dt):
 
